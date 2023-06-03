@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --------------------------------------------------------------- */
+
+
+.nav{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 25px;
+    margin-right: -490px;
+}
+
+.logo img {
+    width: 20%;
+    border: 1.5px solid white;
+    border-radius: 50%;
+    width: 65px;
+    height: 47px;
+    margin-right: 500px;
+    margin-top: -1px;
+}
+
+.nav li a{
+    color: white;
+    padding: 43px;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+}
+
+
+/* ------------------------------------------------------------------ */
+
+
+.container{
+    height: 90vh;
+    /* background-color: rgb(13, 143, 67); */
+
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    /* display: flex; */
+}
+
+.title_name{
+    margin-left: 392px;
+    /* margin-top: 41px; */
+    font-size: 65px; 
+    color: rgb(217, 152, 227);
+    text-shadow: 2px 3px 5px rgb(17, 200, 164);
+    font-family: cursive;
+}
+
+.block1{
+    margin-top: 68px;
+    margin-left: 86px;
+}
+
+p2{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: Century Gothic;
+}
+
+.block2{
+    margin-top: 68px;
+    margin-left: 86px;
+}
+
+p3{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: Century Gothic;
+}
+
+.block3{
+    margin-top: 68px;
+    margin-left: 86px;
+}
+
+p4{
+    color: aliceblue;
+    font-size: 28px;
+    font-family: Century Gothic;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;  
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+}
+
+p1{
+    color: white;
+}
+
+
+@media only screen and (max-width: 400px){
+    .nav {
+        height: 22vh;
+        width: 183vh;
+    }
+
+    .container {
+        height: 95vh;
+        width: 183vh;
+    }
+
+    .title_name{
+        margin-left: 113px;
+        font-size: 32px;
+    }
+
+    footer{
+        width: 183vh;
+    }
+    
+    p1{
+        font-size: 15px;
+    }
+
+    .block1{
+        margin-top: 35px;
+    }
+
+    p2{
+        font-size: 16px;
+    }
+
+    .block2{
+        margin-top: 35px;
+    }
+
+    p3{
+        font-size: 16px;
+    }
+
+    .block3{
+        margin-top: 35px;
+    }
+
+    p4{
+        font-size: 16px;
+    }
+}
